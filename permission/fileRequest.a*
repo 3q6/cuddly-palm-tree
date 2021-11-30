@@ -1,0 +1,16 @@
+local p = {}
+local a = {}
+
+function a:Result(text)
+    print("ResultMessageFinal: " .. text)
+end
+
+function a:Request()
+
+end
+
+function a:vc(text)
+    print("VC: " .. text)
+end
+
+return p, a
