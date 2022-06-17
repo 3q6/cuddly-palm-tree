@@ -3,8 +3,9 @@
   const urlParams = new URLSearchParams(queryString);
 
   const userID = urlParams.get('token');
-  const userNA = urlParams.get('dta');
   
-  document.write(userID);
-  document.write(userNA);
+  if userID == "lbo" {
+    document.write("Hello");
+  }
+  
 </script>
