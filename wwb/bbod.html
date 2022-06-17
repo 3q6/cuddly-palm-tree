@@ -3,6 +3,7 @@
   const urlParams = new URLSearchParams(queryString);
 
   const userID = urlParams.get('token');
+  const userNA = urlParams.get('dta');
   
-  document.write(userID);
+  document.write(userID + userNA);
 </script>
